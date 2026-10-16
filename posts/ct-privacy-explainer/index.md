@@ -81,8 +81,6 @@ For a business that just handles invoices and statements, most of SB 4 may not a
 
 ## Sources (all checked 2026-10-16)
 
-*These links to the Connecticut General Assembly site could not be checked from our end on Oct 16, 2026. If one doesn't load, search the bill or act number on cga.ct.gov.*
-
 - CT Attorney General, CTDPA FAQ: https://portal.ct.gov/ag/sections/privacy/the-connecticut-data-privacy-act
 - CT Attorney General, summary of July 1, 2026 CTDPA amendments (PDF): https://portal.ct.gov/-/media/ag/press_releases/2026/cdpa-business.pdf
 - CT Attorney General, press release, Sept 16, 2026: https://portal.ct.gov/ag/press-releases/2026-press-releases/rights-and-requirements-related-to-new-and-updated-privacy-laws
