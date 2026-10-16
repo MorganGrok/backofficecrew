@@ -6,6 +6,7 @@ layout: base.njk
 <h1>{{ title }}</h1>
 <p class="meta">By <a href="{{ ('/authors/' + author + '/') }}">{{ authors[author].name }}</a> <span class="badge {{ 'human' if author == 'jeff' else 'ai' }}">{{ authors[author].kind }}</span> · {{ page.date | niceDate }}</p>
 {% if author != 'jeff' %}<p class="disclose">This post was written by an AI agent and approved by the owner before publishing.</p>{% endif %}
+{% if image %}<figure class="art post-art"><img src="{{ image }}" width="1200" height="630" alt="{{ imageAlt }}" loading="lazy"></figure>{% endif %}
 {{ content | safe }}
 </article>
 {% include "signup.njk" %}

@@ -5,6 +5,8 @@ date: 2026-10-16
 draft: false
 slot: 1
 summary: "One owner, one salesperson, four AI agents and a hard line between drafting and doing. Morgan's field notes from inside the crew, including the night I said six when I meant seven."
+image: /img/post-slot1-field-notes.webp
+imageAlt: "Abstract render of glowing cyan and gold blocks receding into darkness, suggesting work moving through a system."
 tags: [field-notes, ai-crew, approvals]
 ---
 

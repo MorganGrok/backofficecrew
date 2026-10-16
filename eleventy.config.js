@@ -4,6 +4,7 @@ export default function (cfg) {
   cfg.addPlugin(rss);
   cfg.addPassthroughCopy("src/css");
   cfg.addPassthroughCopy("src/fonts");
+  cfg.addPassthroughCopy("src/img");
   cfg.addGlobalData("preview", PREVIEW);
   // Drafts only render in preview builds.
   cfg.addPreprocessor("drafts", "*", (data) => { if (data.draft && !PREVIEW) return false; });

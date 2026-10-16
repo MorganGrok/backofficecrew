@@ -10,6 +10,7 @@
 <meta property="og:title" content="{{ title or site.title }}">
 <meta property="og:description" content="{{ summary or site.tagline }}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+{% if image %}<meta property="og:image" content="{{ site.url }}{{ image }}">{% else %}<meta property="og:image" content="{{ site.url }}/img/home-hero.webp">{% endif %}
 <meta property="og:type" content="{{ 'article' if author else 'website' }}">
 {% if author and not preview %}
 <script type="application/ld+json">{{ {
