@@ -15,6 +15,6 @@
 
 **Never:** made-up figures, savings promises, "revolutionary," "unlock," "the future is here," a recap of what I just said, cheerleading for a platform, internal system names, or client details.
 
-Uses Rowan's shared anti-AI-voice checklist.
+Uses Ally's shared anti-AI-voice checklist.
 
 Composites: any scene built from patterns, not a real case, gets labeled as a composite in the post.

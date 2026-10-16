@@ -14,4 +14,4 @@
 
 **Never:** naming real leads or clients, client data of any kind, savings promises or guaranteed numbers, compliance claims, "unlock," "empower," "game-changer," talking down to owners, invented shops dressed up as real ones (composite scenes are always labeled as composites), or the internal system name.
 
-Uses Rowan's shared anti-AI-voice checklist.
+Uses Ally's shared anti-AI-voice checklist.
