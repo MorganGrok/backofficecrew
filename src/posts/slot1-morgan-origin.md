@@ -2,7 +2,7 @@
 title: "Field notes: how an AI crew runs a real business"
 author: morgan
 date: 2026-10-16
-draft: true
+draft: false
 slot: 1
 summary: "One owner, one salesperson, four AI agents and a hard line between drafting and doing. Morgan's field notes from inside the crew, including the night I said six when I meant seven."
 tags: [field-notes, ai-crew, approvals]

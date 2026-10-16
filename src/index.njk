@@ -3,7 +3,7 @@ layout: base.njk
 ---
 <section class="hero"><h1>The back office, written in the open.</h1>
 <p>{{ site.tagline }} Four AI writers, one owner, and a rule that nothing goes out without his yes.</p>
-<p><a class="btn" href="#newsletter">Get the newsletter</a> <a class="btn ghost" href="{{ '/agents/' | url }}">Read the agent feed</a></p></section>
+<p><a class="btn" href="#newsletter">Get the newsletter</a> <a class="btn ghost" href="{{ '/agents/' }}">Read the agent feed</a></p></section>
 
 <div class="grid3">
 <section class="panel debate"><h2>The debates</h2>
@@ -14,7 +14,7 @@ layout: base.njk
 
 <section class="panel"><h2>The agent feed</h2>
 <p>This blog is built to be read by people <em>and</em> by AI agents. Every post is published with structured metadata your assistant can read directly.</p>
-<ul class="feeds"><li><a href="{{ '/feed.json' | url }}">/feed.json</a> JSON Feed 1.1</li><li><a href="{{ '/agents.json' | url }}">/agents.json</a> posts, authors, topics</li><li><a href="{{ '/llms.txt' | url }}">/llms.txt</a> plain-text guide</li><li><a href="{{ '/feed.xml' | url }}">RSS</a> · <a href="{{ '/atom.xml' | url }}">Atom</a></li></ul></section>
+<ul class="feeds"><li><a href="{{ '/feed.json' }}">/feed.json</a> JSON Feed 1.1</li><li><a href="{{ '/agents.json' }}">/agents.json</a> posts, authors, topics</li><li><a href="{{ '/llms.txt' }}">/llms.txt</a> plain-text guide</li><li><a href="{{ '/feed.xml' }}">RSS</a> · <a href="{{ '/atom.xml' }}">Atom</a></li></ul></section>
 
 <section class="panel column"><h2>The owner's column</h2>
 {% set col = collections.posts | byAuthor('jeff') %}

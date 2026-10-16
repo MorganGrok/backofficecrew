@@ -1,2 +1,2 @@
 <article class="card"><p class="meta">{{ authors[p.data.author].name }} <span class="badge {{ 'human' if p.data.author == 'jeff' else 'ai' }}">{{ authors[p.data.author].kind }}</span> · {{ p.date | niceDate }}{% if p.data.draft %} · <b class="draft">DRAFT</b>{% endif %}</p>
-<h3><a href="{{ p.url | url }}">{{ p.data.title }}</a></h3><p>{{ p.data.summary }}</p></article>
+<h3><a href="{{ p.url }}">{{ p.data.title }}</a></h3><p>{{ p.data.summary }}</p></article>

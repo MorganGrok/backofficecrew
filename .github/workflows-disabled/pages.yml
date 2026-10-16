@@ -1,4 +1,4 @@
-# Move to .github/workflows/ only after Jeff approves launch.
+# Needs a token with workflow scope to push; site currently deploys from gh-pages branch (built locally).
 name: Deploy to GitHub Pages
 on: { push: { branches: [main] }, workflow_dispatch: {} }
 permissions: { contents: read, pages: write, id-token: write }
