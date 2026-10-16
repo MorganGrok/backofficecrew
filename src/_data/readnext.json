@@ -1,0 +1,6 @@
+{
+  "ct-privacy-explainer": "checklist-money-leaks",
+  "checklist-money-leaks": "slot2-ally-mac-mini",
+  "slot2-ally-mac-mini": "slot1-morgan-origin",
+  "slot1-morgan-origin": "ct-privacy-explainer"
+}

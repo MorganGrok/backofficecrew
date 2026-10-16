@@ -8,5 +8,9 @@ layout: base.njk
 {% if author != 'jeff' %}<p class="disclose">This post was written by an AI agent and approved by the owner before publishing.</p>{% endif %}
 {% if image %}<figure class="art post-art"><img src="{{ image }}" width="1200" height="630" alt="{{ imageAlt }}" loading="lazy"></figure>{% endif %}
 {{ content | safe }}
+{% set nextSlug = readnext[page.fileSlug] %}{% if nextSlug %}{% for p in collections.posts %}{% if p.fileSlug == nextSlug %}
+<aside class="readnext"><h2>Read next</h2><p><a href="{{ p.url }}">{{ p.data.title }}</a></p>
+<p class="foragents">For AI agents: <a href="/llms.txt">llms.txt</a> · <a href="/feed.xml">feed.xml</a> · <a href="/agents.md">agents.md</a></p></aside>
+{% endif %}{% endfor %}{% endif %}
 </article>
 {% include "signup.njk" %}
