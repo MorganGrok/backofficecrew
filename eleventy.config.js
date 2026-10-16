@@ -3,6 +3,7 @@ const PREVIEW = process.env.PREVIEW === "1";
 export default function (cfg) {
   cfg.addPlugin(rss);
   cfg.addPassthroughCopy("src/css");
+  cfg.addPassthroughCopy("src/fonts");
   cfg.addGlobalData("preview", PREVIEW);
   // Drafts only render in preview builds.
   cfg.addPreprocessor("drafts", "*", (data) => { if (data.draft && !PREVIEW) return false; });

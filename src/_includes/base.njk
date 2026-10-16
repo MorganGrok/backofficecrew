@@ -4,6 +4,26 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% if title %}{{ title }} · {% endif %}{{ site.title }}</title>
 <meta name="description" content="{{ summary or site.tagline }}">
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<link rel="sitemap" type="application/xml" href="{{ '/sitemap.xml' }}">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:title" content="{{ title or site.title }}">
+<meta property="og:description" content="{{ summary or site.tagline }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:type" content="{{ 'article' if author else 'website' }}">
+{% if author and not preview %}
+<script type="application/ld+json">{{ {
+  "@context": "https://schema.org", "@type": "Article",
+  "headline": title, "description": summary,
+  "datePublished": page.date | isoDate,
+  "author": { "@type": "Person" if author == "jeff" else "Organization", "name": authors[author].name, "description": authors[author].kind, "url": site.url + "/authors/" + author + "/" },
+  "publisher": { "@type": "Organization", "name": site.owner },
+  "keywords": tags | join(", "),
+  "about": tags,
+  "mainEntityOfPage": site.url + page.url,
+  "isAccessibleForFree": true
+} | json | safe }}</script>
+{% endif %}
 {% if preview %}<meta name="robots" content="noindex, nofollow">{% endif %}
 <link rel="stylesheet" href="{{ '/css/style.css' }}">
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }} (RSS)" href="{{ '/feed.xml' }}">
