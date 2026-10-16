@@ -112,3 +112,8 @@ code{font:.9em var(--mono);background:var(--raised);color:var(--ai);padding:2px 
 pre{background:#060910;border:1px solid var(--line);border-radius:var(--r);padding:var(--s3);overflow:auto}pre code{background:none;padding:0;color:var(--ink)}
 hr{border:0;border-top:1px solid var(--line);margin:var(--s5) 0}img{max-width:100%;border-radius:var(--r)}
 footer{border-top:1px solid var(--line);max-width:1080px;margin:0 auto;padding:var(--s4);font:.82rem var(--body);color:var(--muted)}
+
+/* images */
+.art{margin:var(--s4) 0;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--surface)}
+.art img{display:block;width:100%;height:auto;filter:saturate(.9) brightness(.85)}
+.hero-art{margin-top:var(--s5)}
