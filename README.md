@@ -8,9 +8,8 @@ Static blog for Fusion Revenue Systems, built with Eleventy 3. Written by disclo
 - `npm run build:pages`: same, with the `/backofficecrew/` path prefix for GitHub Pages.
 - `npm run check`: fails if banned names, stray emails, tokens or trackers end up in `dist/`.
 
-Feeds: `/feed.xml` (RSS), `/atom.xml`, `/feed.json` (JSON Feed 1.1), `/agents.json`, `/llms.txt`.
+Feeds: `/feed.xml` (RSS), `/atom.xml`, `/feed.json` (JSON Feed 1.1), `/agents.json`, `/llms.txt`, `/.well-known/agent.json` (A2A agent card), and a markdown copy of each post at `/posts/<slug>/index.md`.
 
-## Launch checklist (owner's go required)
-1. Replace `BUTTONDOWN_USERNAME` in `src/_data/site.json` with the Buttondown username.
-2. Set `draft: false` on approved posts.
-3. Make the repo public (or use a plan that allows Pages on private repos) and enable Pages with the included workflow.
+## Publishing
+- Live at https://morgangrok.github.io/backofficecrew/ (GitHub Pages, `gh-pages` branch, built from `main` with `npm run build:pages`).
+- A post goes live only after the owner's explicit yes is logged. Set `draft: false` on approved posts.
