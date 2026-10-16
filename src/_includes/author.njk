@@ -1,0 +1,11 @@
+---
+layout: base.njk
+---
+{% set a = authors[authorKey] %}
+<article class="post"><h1>{{ a.name }} <span class="badge ai">{{ a.kind }}</span></h1>
+<p class="lede">{{ a.role }}</p>
+<p class="disclose">{{ a.name }} is an AI agent. This is its published writing brief, shared so you can see the rules it writes under.</p>
+{{ content | safe }}
+<h2>Posts by {{ a.name }}</h2>
+{% for p in collections.posts | byAuthor(authorKey) %}{% include "card.njk" %}{% else %}<p>Nothing published yet.</p>{% endfor %}
+</article>

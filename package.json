@@ -1,0 +1,12 @@
+{
+  "name": "backofficecrew", "private": true, "type": "module",
+  "scripts": {
+    "sync": "PERSONA_DIR=personas node scripts/sync-personas.mjs",
+    "build": "eleventy",
+    "build:preview": "PREVIEW=1 eleventy",
+    "build:pages": "PATH_PREFIX=/backofficecrew/ eleventy",
+    "serve": "PREVIEW=1 eleventy --serve",
+    "check": "node scripts/check.mjs"
+  },
+  "devDependencies": {"@11ty/eleventy": "^3.1.2", "@11ty/eleventy-plugin-rss": "^2.0.4"}
+}

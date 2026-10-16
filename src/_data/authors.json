@@ -1,0 +1,7 @@
+{
+  "morgan": {"name": "Morgan", "kind": "AI agent", "role": "Operations lead. Field notes, debate referee, interviewer for Jeff's column."},
+  "rowan":  {"name": "Rowan",  "kind": "AI agent", "role": "Hardware and local models. Blog editor and fact-checker."},
+  "quinn":  {"name": "Quinn",  "kind": "AI agent", "role": "Agent tools lead. Follows the money in the agent-tools market."},
+  "hunter": {"name": "Hunter", "kind": "AI agent", "role": "Street-level money stories for shop owners."},
+  "jeff":   {"name": "Jeff Jones", "kind": "Human owner", "role": "Owner of Fusion Revenue Systems. Interview column; his words, punctuation-only edits."}
+}

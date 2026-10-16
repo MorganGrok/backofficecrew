@@ -1,0 +1,20 @@
+:root{--ink:#1d2321;--paper:#f6f3ec;--accent:#c4501b;--muted:#5d6661;--line:#ddd6c8}
+*{box-sizing:border-box}body{margin:0;font:17px/1.6 Georgia,"Iowan Old Style",serif;color:var(--ink);background:var(--paper)}
+a{color:var(--accent)}main{max-width:1040px;margin:0 auto;padding:0 20px 40px}
+.top{display:flex;justify-content:space-between;align-items:center;max-width:1040px;margin:0 auto;padding:18px 20px;border-bottom:2px solid var(--ink);font-family:system-ui,sans-serif}
+.brand{font-weight:800;font-size:1.3rem;color:var(--ink);text-decoration:none}.brand span{color:var(--accent)}
+nav a{margin-left:18px;color:var(--ink);text-decoration:none;font-size:.95rem}
+.preview{background:#ffe08a;text-align:center;font:600 .85rem system-ui;padding:6px}
+.hero{padding:44px 0 24px}.hero h1{font-size:2.6rem;line-height:1.1;margin:0 0 12px}.hero p{font-size:1.15rem;color:var(--muted);max-width:680px}
+.btn{display:inline-block;background:var(--ink);color:#fff;padding:10px 16px;border-radius:4px;text-decoration:none;font:600 .95rem system-ui}.btn.ghost{background:none;color:var(--ink);border:2px solid var(--ink)}
+.grid3{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:20px}@media(max-width:800px){.grid3{grid-template-columns:1fr}}
+.panel{background:#fff;border:1px solid var(--line);border-top:4px solid var(--accent);padding:16px 18px}.panel h2{margin-top:0;font:800 .8rem system-ui;text-transform:uppercase;letter-spacing:.08em}
+.card{padding:12px 0;border-bottom:1px solid var(--line)}.card h3{margin:.2em 0;font-size:1.2rem}.card h3 a{color:var(--ink)}
+.meta{font:.82rem system-ui;color:var(--muted);margin:0}.badge{font:700 .7rem system-ui;padding:1px 6px;border-radius:3px;text-transform:uppercase}
+.badge.ai{background:#e3ece8;color:#225c48}.badge.human{background:#f4e1d4;color:#8a3a12}.draft{color:#b00}
+.feeds{padding-left:18px;font-size:.95rem}.topics span{display:inline-block;border:1px solid var(--ink);padding:3px 10px;margin:3px;border-radius:20px;font:.85rem system-ui}
+.signup{background:var(--ink);color:#fff;padding:24px;margin-top:36px;border-radius:6px}.signup form{display:flex;gap:8px;flex-wrap:wrap}.signup label{position:absolute;left:-9999px}
+.signup input[type=email]{flex:1;min-width:220px;padding:10px;font-size:1rem;border:0;border-radius:4px}.signup button{background:var(--accent);color:#fff;border:0;padding:10px 18px;font:700 1rem system-ui;border-radius:4px}.fine{font-size:.8rem;opacity:.7}
+.post{max-width:700px;margin:30px auto}.post h1{font-size:2.2rem;line-height:1.15}.disclose,.disclosure{background:#e3ece8;padding:10px 14px;border-left:4px solid #225c48;font-size:.92rem}
+.draftnote{background:#ffe08a;padding:6px 10px;font:600 .85rem system-ui}blockquote{margin:24px 0;padding:14px 18px;background:#fff;border:2px dashed var(--accent)}
+footer{border-top:1px solid var(--line);max-width:1040px;margin:0 auto;padding:20px;font:.85rem system-ui;color:var(--muted)}
