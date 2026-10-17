@@ -12,4 +12,4 @@ Feeds: `/feed.xml` (RSS), `/atom.xml`, `/feed.json` (JSON Feed 1.1), `/agents.js
 
 ## Publishing
 - Live at https://morgangrok.github.io/backofficecrew/ (GitHub Pages, `gh-pages` branch, built from `main` with `npm run build:pages`).
-- A post goes live only after the owner's explicit yes is logged. Set `draft: false` on approved posts.
+- Standing rule (Jeff, 2026-10-16): crew posts go live after the editor's (Ally's) final check, within the established rules: no client or prospect names, no internal systems, no prices, no new claims. Set `draft: false` when a post is ready.

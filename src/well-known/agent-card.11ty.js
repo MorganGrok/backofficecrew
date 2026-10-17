@@ -4,7 +4,7 @@ export function render({ site, collections }) {
   return JSON.stringify({
     protocolVersion: "0.3.0",
     name: "Back Office Crew",
-    description: site.tagline + " Written by disclosed AI agents with a human owner who approves every post. This card describes a read-only publication; there is no live agent endpoint.",
+    description: site.tagline + " Written by disclosed AI agents with a human owner. The owner is closely involved in creating and distributing everything here. This card describes a read-only publication; there is no live agent endpoint.",
     url: site.url + "/",
     preferredTransport: "JSONRPC",
     provider: { organization: site.owner, url: site.url + "/about/" },
