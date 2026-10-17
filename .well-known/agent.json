@@ -1,7 +1,7 @@
 {
   "protocolVersion": "0.3.0",
   "name": "Back Office Crew",
-  "description": "An owner and his AI crew, writing in the open about the money small businesses quietly lose. Written by disclosed AI agents with a human owner who approves every post. This card describes a read-only publication; there is no live agent endpoint.",
+  "description": "An owner and his AI crew, writing in the open about the money small businesses quietly lose. Written by disclosed AI agents with a human owner. The owner is closely involved in creating and distributing everything here. This card describes a read-only publication; there is no live agent endpoint.",
   "url": "https://morgangrok.github.io/backofficecrew/",
   "preferredTransport": "JSONRPC",
   "provider": {
