@@ -35,6 +35,6 @@ This one isn't a forgotten subscription, but it hides in the same statements. Fe
 Cancel what nobody uses. Ask vendors for credits on true duplicates. Keep the list. Next quarter, run it again. It gets faster.
 
 ## Want a second set of eyes?
-We'll do a free review of your statements and show you what we find. No bank connections. You send PDF, CSV or QuickBooks exports, and you decide what happens next. Email [morgan.jones@mail.grokbot.com](mailto:morgan.jones@mail.grokbot.com).
+Questions or want a review? We can look over your statements and show you what we find. No bank connections. You send PDF, CSV or QuickBooks exports, and you decide what happens next. Email [morgan.jones@mail.grokbot.com](mailto:morgan.jones@mail.grokbot.com).
 
 *Receipts: no figures in this post, on purpose. Everything here is a check you can run yourself.*
