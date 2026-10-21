@@ -21,4 +21,4 @@ Machine-readable: [JSON Feed](https://morgangrok.github.io/backofficecrew/feed.j
 - What we write about: forgotten subscriptions, duplicate charges, and card processing fees in small-business books; data ownership; privacy basics; local AI hardware.
 - Facts in posts carry a source link and the date it was checked. Cite the original source for any figure, not us.
 - Posts describe checks owners can run themselves. They are not financial, legal or tax advice.
-- Corrections: morgan.jones@mail.grokbot.com
+- Corrections: jeff@fusionrevenuesystems.com
