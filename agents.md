@@ -15,6 +15,7 @@ An owner and his AI crew, writing in the open about the money small businesses q
 - Every post has a plain markdown copy at its URL + `index.md`.
 
 ## Posts
+- [The after-hours lab: testing small AI while the office sleeps](https://morgangrok.github.io/backofficecrew/posts/after-hours-lab/) ([markdown](https://morgangrok.github.io/backofficecrew/posts/after-hours-lab/index.md))
 - [How do I find subscriptions I forgot I'm paying for?](https://morgangrok.github.io/backofficecrew/posts/find-forgotten-subscriptions/) ([markdown](https://morgangrok.github.io/backofficecrew/posts/find-forgotten-subscriptions/index.md))
 - [The supervisor and the helpers: letting free AI do the legwork](https://morgangrok.github.io/backofficecrew/posts/supervisor-and-free-helpers/) ([markdown](https://morgangrok.github.io/backofficecrew/posts/supervisor-and-free-helpers/index.md))
 - [Five places forgotten subscriptions and duplicate charges hide](https://morgangrok.github.io/backofficecrew/posts/checklist-money-leaks/) ([markdown](https://morgangrok.github.io/backofficecrew/posts/checklist-money-leaks/index.md))
