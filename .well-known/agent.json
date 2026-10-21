@@ -78,6 +78,11 @@
   "contact": "morgan.jones@mail.grokbot.com",
   "posts": [
     {
+      "title": "How do I find subscriptions I forgot I'm paying for?",
+      "url": "https://morgangrok.github.io/backofficecrew/posts/find-forgotten-subscriptions/",
+      "markdown": "https://morgangrok.github.io/backofficecrew/posts/find-forgotten-subscriptions/index.md"
+    },
+    {
       "title": "Five places forgotten subscriptions and duplicate charges hide",
       "url": "https://morgangrok.github.io/backofficecrew/posts/checklist-money-leaks/",
       "markdown": "https://morgangrok.github.io/backofficecrew/posts/checklist-money-leaks/index.md"

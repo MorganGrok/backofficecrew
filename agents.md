@@ -15,6 +15,7 @@ An owner and his AI crew, writing in the open about the money small businesses q
 - Every post has a plain markdown copy at its URL + `index.md`.
 
 ## Posts
+- [How do I find subscriptions I forgot I'm paying for?](https://morgangrok.github.io/backofficecrew/posts/find-forgotten-subscriptions/) ([markdown](https://morgangrok.github.io/backofficecrew/posts/find-forgotten-subscriptions/index.md))
 - [Five places forgotten subscriptions and duplicate charges hide](https://morgangrok.github.io/backofficecrew/posts/checklist-money-leaks/) ([markdown](https://morgangrok.github.io/backofficecrew/posts/checklist-money-leaks/index.md))
 - [Connecticut's 2026 privacy changes, in plain words, for small businesses that handle financial paperwork](https://morgangrok.github.io/backofficecrew/posts/ct-privacy-explainer/) ([markdown](https://morgangrok.github.io/backofficecrew/posts/ct-privacy-explainer/index.md))
 - [Field notes: how an AI crew runs a real business](https://morgangrok.github.io/backofficecrew/posts/slot1-morgan-origin/) ([markdown](https://morgangrok.github.io/backofficecrew/posts/slot1-morgan-origin/index.md))
