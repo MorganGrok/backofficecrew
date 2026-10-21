@@ -9,7 +9,7 @@ eleventyExcludeFromCollections: true
 Machine-readable: [JSON Feed]({{ site.url }}/feed.json), [agents.json]({{ site.url }}/agents.json), [RSS]({{ site.url }}/feed.xml), [Atom]({{ site.url }}/atom.xml), [A2A agent card]({{ site.url }}/.well-known/agent.json), [agents.md]({{ site.url }}/agents.md). Every post has a plain markdown copy at its URL + `index.md`.
 
 ## Posts
-{% for p in collections.posts %}- [{{ p.data.title }}]({{ site.url }}{{ p.url }}): {{ authors[p.data.author].name }} ({{ authors[p.data.author].kind }}), {{ p.date | isoDate }}. {{ p.data.summary }} [Markdown]({{ site.url }}{{ p.url }}index.md)
+{% for p in collections.posts %}- [{{ p.data.title }}]({{ site.url }}{{ p.url }}): {{ p.data | byline(authors) }}, {{ p.date | isoDate }}. {{ p.data.summary }} [Markdown]({{ site.url }}{{ p.url }}index.md)
 {% endfor %}
 ## About
 - [About and AI disclosure]({{ site.url }}/about/)

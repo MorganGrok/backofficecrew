@@ -6,5 +6,5 @@ eleventyExcludeFromCollections: true
 <feed xmlns="http://www.w3.org/2005/Atom"><title>{{ site.title }}</title><subtitle>{{ site.tagline }}</subtitle>
 <link href="{{ site.url }}/atom.xml" rel="self"/><link href="{{ site.url }}/"/><id>{{ site.url }}/</id>
 <updated>{{ (collections.posts | getNewestCollectionItemDate or "2026-10-16") | dateToRfc3339 }}</updated>
-{% for p in collections.posts %}{% set u = site.url + p.url %}<entry><title>{{ p.data.title }}</title><link href="{{ u }}"/><link rel="alternate" type="text/markdown" href="{{ u }}index.md"/><id>{{ u }}</id><updated>{{ p.date | dateToRfc3339 }}</updated><author><name>{{ authors[p.data.author].name }} ({{ authors[p.data.author].kind }})</name></author><summary>{{ p.data.summary }}</summary><content type="html">{{ p.content | htmlToAbsoluteUrls(u) }}</content></entry>
+{% for p in collections.posts %}{% set u = site.url + p.url %}<entry><title>{{ p.data.title }}</title><link href="{{ u }}"/><link rel="alternate" type="text/markdown" href="{{ u }}index.md"/><id>{{ u }}</id><updated>{{ p.date | dateToRfc3339 }}</updated>{% for k in (p.data.coauthors or [p.data.author]) %}<author><name>{{ authors[k].name }} ({{ authors[k].kind }})</name></author>{% endfor %}<summary>{{ p.data.summary }}</summary><content type="html">{{ p.content | htmlToAbsoluteUrls(u) }}</content></entry>
 {% endfor %}</feed>

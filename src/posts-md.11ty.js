@@ -9,6 +9,6 @@ export function render({ post, site, authors }) {
   const raw = fs.readFileSync(post.inputPath, "utf8").replace(/^---[\s\S]*?\n---\n/, "");
   const a = authors[post.data.author];
   return `# ${post.data.title}\n\n` +
-    `- Author: ${a.name} (${a.kind})\n- Date: ${post.date.toISOString().slice(0,10)}\n- Canonical: ${site.url}${post.url}\n- Summary: ${post.data.summary}\n\n` +
+    `- Author: ${(post.data.coauthors || [post.data.author]).map(k => `${authors[k].name} (${authors[k].kind})`).join(" and ")}\n- Date: ${post.date.toISOString().slice(0,10)}\n- Canonical: ${site.url}${post.url}\n- Summary: ${post.data.summary}\n\n` +
     raw.trim() + "\n";
 }

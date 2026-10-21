@@ -7,7 +7,7 @@ export function render({ site, authors, collections }) {
     items: collections.posts.map(p => ({
       id: site.url + p.url, url: site.url + p.url, _markdown_url: site.url + p.url + "index.md", title: p.data.title, summary: p.data.summary,
       content_html: p.content, date_published: p.date.toISOString(), tags: p.data.tags || [],
-      authors: [{ name: authors[p.data.author].name, url: site.url + "/authors/" + p.data.author + "/" }],
+      authors: (p.data.coauthors || [p.data.author]).map(k => ({ name: authors[k].name, url: k === "jeff" ? site.url + "/authors/" : site.url + "/authors/" + k + "/" })),
       _meta: { author_kind: authors[p.data.author].kind, draft: !!p.data.draft }
     }))
   }, null, 2);

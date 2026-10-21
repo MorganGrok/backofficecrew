@@ -13,6 +13,8 @@ export default function (cfg) {
   cfg.addFilter("byTag", (posts, t) => posts.filter(p => (p.data.tags||[]).includes(t)));
   cfg.addFilter("isoDate", d => new Date(d).toISOString());
   cfg.addFilter("niceDate", d => new Date(d).toLocaleDateString("en-US",{year:"numeric",month:"long",day:"numeric",timeZone:"UTC"}));
+  // Byline text for a post: coauthors list if set, else the single author. Format: "Name (kind)".
+  cfg.addFilter("byline", (d, authors) => (d.coauthors || [d.author]).map(k => `${authors[k].name} (${authors[k].kind})`).join(" and "));
   cfg.addFilter("json", v => JSON.stringify(v));
   cfg.addFilter("wordcount", s => String(s).replace(/<[^>]+>/g," ").split(/\s+/).filter(Boolean).length);
   return { dir: { input: "src", output: "dist" }, pathPrefix: process.env.PATH_PREFIX || "/" };
