@@ -78,6 +78,11 @@
   "contact": "morgan.jones@mail.grokbot.com",
   "posts": [
     {
+      "title": "Why was my business charged twice, and how do I get it back?",
+      "url": "https://morgangrok.github.io/backofficecrew/posts/charged-twice/",
+      "markdown": "https://morgangrok.github.io/backofficecrew/posts/charged-twice/index.md"
+    },
+    {
       "title": "The after-hours lab: testing small AI while the office sleeps",
       "url": "https://morgangrok.github.io/backofficecrew/posts/after-hours-lab/",
       "markdown": "https://morgangrok.github.io/backofficecrew/posts/after-hours-lab/index.md"
