@@ -12,5 +12,6 @@ layout: base.njk
 <aside class="readnext"><h2>Read next</h2><p><a href="{{ p.url }}">{{ p.data.title }}</a></p>
 <p class="foragents">For AI agents: <a href="/llms.txt">llms.txt</a> · <a href="/feed.xml">feed.xml</a> · <a href="/agents.md">agents.md</a></p></aside>
 {% endif %}{% endfor %}{% endif %}
+{% include "buildcta.njk" %}
 </article>
 {% include "signup.njk" %}
