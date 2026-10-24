@@ -117,3 +117,22 @@ footer{border-top:1px solid var(--line);max-width:1080px;margin:0 auto;padding:v
 .art{margin:var(--s4) 0;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--surface)}
 .art img{display:block;width:100%;height:auto;filter:saturate(.9) brightness(.85)}
 .hero-art{margin-top:var(--s5)}
+
+/* research page (brand navy #1F2A44, amber #F2A33A) */
+.research-hero h1{max-width:22ch}
+.research-label{display:inline-block;font:600 .8rem var(--mono);color:#F2A33A;border:1px solid rgba(242,163,58,.5);background:rgba(242,163,58,.08);padding:6px 12px;border-radius:999px}
+.filters{display:flex;flex-wrap:wrap;gap:var(--s2);margin:0 0 var(--s4)}
+.filter{font:600 .9rem var(--body);color:var(--ink);background:#1F2A44;border:1px solid var(--line);border-radius:999px;padding:8px 16px;cursor:pointer}
+.filter:hover{border-color:#F2A33A}
+.filter.is-on{background:#F2A33A;color:#1F2A44;border-color:#F2A33A}
+.findings{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:var(--s4)}
+.finding{background:#1F2A44;border:1px solid var(--line);border-top:3px solid #F2A33A;border-radius:var(--r);padding:var(--s4);display:flex;flex-direction:column}
+.finding[hidden]{display:none}
+.finding h2{font-size:1.2rem;line-height:1.3;margin:.2em 0 .6em}
+.finding dl{margin:0}.finding dt{font:600 .7rem var(--mono);text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-top:var(--s2)}
+.finding dd{margin:.2em 0 0;color:#D5DCE6;font-size:.95rem}
+.finding-do{margin:var(--s3) 0 0;padding:var(--s2) var(--s3);background:rgba(242,163,58,.1);border-left:3px solid #F2A33A;border-radius:0 var(--r) var(--r) 0;font-size:.95rem}
+.finding-do strong{color:#F2A33A}
+.finding-link{margin:var(--s3) 0 0;margin-top:auto;padding-top:var(--s3);font-size:.9rem;font-weight:600}
+.finding-tags{margin:0}.finding-tags span{display:inline-block;font:600 .66rem var(--mono);text-transform:uppercase;letter-spacing:.08em;color:#F2A33A;border:1px solid rgba(242,163,58,.45);border-radius:999px;padding:2px 8px;margin-right:4px}
+.research-build{margin-top:var(--s4);font-weight:600}
