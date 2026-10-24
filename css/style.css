@@ -135,5 +135,5 @@ footer{border-top:1px solid var(--line);max-width:1080px;margin:0 auto;padding:v
 .finding-do strong{color:#F2A33A}
 .finding-link{margin:var(--s3) 0 0;margin-top:auto;padding-top:var(--s3);font-size:.9rem;font-weight:600}
 .finding-tags{margin:0}.finding-tags span{display:inline-block;font:600 .66rem var(--mono);text-transform:uppercase;letter-spacing:.08em;color:#F2A33A;border:1px solid rgba(242,163,58,.45);border-radius:999px;padding:2px 8px;margin-right:4px}
-.buildcta{background:rgba(31,42,68,.35);border:1px solid #1F2A44;border-left:3px solid #F2A33A;padding:var(--s4);margin-top:var(--s5);border-radius:var(--r)}
+.buildcta{background:var(--raised);border:1px solid var(--line);border-left:3px solid #F2A33A;padding:var(--s4);margin-top:var(--s5);border-radius:var(--r)}
 .buildcta h2{margin-top:0}
