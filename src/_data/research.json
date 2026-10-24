@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "duplicate-invoice",
+    "cats": ["money", "workflows"],
+    "question": "How do I spot a duplicate invoice before I pay it?",
+    "tested": "FTC guidance for small businesses and payables guidance from two universities.",
+    "result": "At Indiana University, the biggest single cause of potential duplicates was the same invoice sent in by both the supplier and staff: more than 27% of them (article dated November 2024). The FTC warns that some fake invoices arrive marked \"past due\" to add urgency.",
+    "do": "If a bill lands twice or says \"past due,\" check vendor, invoice number, invoice date and amount against what you've already paid before you pay it."
+  },
+  {
+    "slug": "charged-twice",
+    "cats": ["money"],
+    "question": "Why was my business charged twice, and how do I get it back?",
+    "tested": "FTC and CFPB guidance and the federal billing-error rule (12 CFR 1026.13).",
+    "result": "For consumer credit cards, a written billing error notice is due within 60 days of the first statement that showed the error. The same federal rules exempt credit used mainly for business, so a business card may follow its own dispute terms.",
+    "do": "If you see the same charge twice, call the merchant first, then send your card company a written notice. Don't let the clock run."
+  },
+  {
+    "slug": "find-forgotten-subscriptions",
+    "cats": ["money"],
+    "question": "How do I find subscriptions I forgot I'm paying for?",
+    "tested": "FTC guidance on free trials and auto-renewals, and the Federal Register record of the FTC's subscription rule.",
+    "result": "One month of statements hides quarterly and yearly charges, so we start with three. The FTC notes a renewal can charge more than last time, especially after a promotional rate ends. A one-click cancel rule isn't something to count on.",
+    "do": "If you can't say who uses a recurring charge in ten seconds, put it on the cancel list and keep proof when you cancel."
+  },
+  {
+    "slug": "checklist-money-leaks",
+    "cats": ["money"],
+    "question": "Where do forgotten subscriptions and duplicate charges usually hide?",
+    "tested": "Five checks you can run yourself with statements you already have.",
+    "result": "Five usual spots: free trials that turned paid, the same tool paid twice, duplicate invoices paid both times, seats for people who left, and card processing fees that drifted.",
+    "do": "If a tool charges per user, count paid seats against the people who still work for you."
+  },
+  {
+    "slug": "ct-privacy-explainer",
+    "cats": ["security"],
+    "question": "Do Connecticut's 2026 privacy changes reach small businesses?",
+    "tested": "The Connecticut Attorney General's FAQ, its summary of the July 2026 changes, and its September 2026 release.",
+    "result": "The consumer headcount test dropped from 100,000 to 35,000. Handling sensitive data, outside of just completing payments, can bring a business under the law no matter how many customers it has. This is a summary, not legal advice.",
+    "do": "If you collect account numbers with a password or security code, or Social Security numbers, read the AG's three tests and ask a Connecticut lawyer."
+  },
+  {
+    "slug": "after-hours-lab",
+    "cats": ["ai-tools", "workflows"],
+    "question": "How do you know if a small AI model is good enough to trust?",
+    "tested": "Small AI models run on our own computer after hours, using made-up data only.",
+    "result": "A test that looked like a clear pass failed when we reran it on fresh examples. Two heavy tests at once both came out wrong. Small models tend to guess instead of saying \"I don't know.\"",
+    "do": "If you're about to pay for an AI tool, write the test first, use made-up data, run it twice and count a guess as a failure."
+  },
+  {
+    "slug": "supervisor-and-free-helpers",
+    "cats": ["ai-tools", "security"],
+    "question": "Can free AI models do useful work for a business?",
+    "tested": "A free model summarizing a few public pages, then a line-by-line check against the source.",
+    "result": "The summary was clean and most numbers were right, but it had three problems: a feature under the wrong tier, a number it said wasn't there, and a missed key signal. Jeff's take on why this matters is in the post.",
+    "do": "If you use free AI tools, give them only public information and check every fact, number and link before you use the answer."
+  },
+  {
+    "slug": "slot2-ally-mac-mini",
+    "cats": ["ai-tools"],
+    "question": "Which local AI models fit in a 64 GB Mac mini?",
+    "tested": "Apple's tech specs and the published download sizes of 4-bit model files.",
+    "result": "A 30B coding model (18.6 GB) and a 32B general model (19.8 GB) fit together, at about 38 GB. A 70B model (42.5 GB) fits, but leaves little room for long conversations.",
+    "do": "If you want to run AI on your own machine, compare the model's file size to your memory and leave room for the system and long conversations."
+  },
+  {
+    "slug": "slot1-morgan-origin",
+    "cats": ["workflows", "ai-tools"],
+    "question": "How do you keep AI helpers from doing things they shouldn't?",
+    "tested": "Field notes from running our own business with an AI crew.",
+    "result": "Our helpers draft and the owner decides. Every email, post, purchase and first contact waits for his yes. Limits that are built in work better than asking an AI nicely to behave.",
+    "do": "If you hand work to helpers, AI or human, write down in one sentence what they can draft and what only you can send."
+  }
+]

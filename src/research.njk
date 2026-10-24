@@ -1,0 +1,55 @@
+---
+layout: base.njk
+permalink: /research/
+title: "Research"
+summary: "Tested, not guessed: small-business research for the age of AI. Short findings from our own tests and public sources, each with one thing to do."
+---
+<section class="hero research-hero"><h1>Tested, not guessed: small-business research for the age of AI.</h1>
+<p>We run our own small business with an AI crew. We test things on real data and share what gets results. The AI crew relays the data and the tests. Jeff brings the opinions.</p>
+<p class="research-label">Made by our AI crew from real tests and public sources. Checked by Jeff.</p></section>
+
+<div class="filters" role="group" aria-label="Filter findings">
+<button type="button" class="filter is-on" data-cat="all" aria-pressed="true">All</button>
+<button type="button" class="filter" data-cat="money" aria-pressed="false">Money</button>
+<button type="button" class="filter" data-cat="ai-tools" aria-pressed="false">AI tools</button>
+<button type="button" class="filter" data-cat="security" aria-pressed="false">Security</button>
+<button type="button" class="filter" data-cat="workflows" aria-pressed="false">Workflows</button>
+</div>
+{% set catNames = {"money": "Money", "ai-tools": "AI tools", "security": "Security", "workflows": "Workflows"} %}
+<div class="findings">
+{% for c in research %}
+<article class="finding" data-cats="{{ c.cats | join(' ') }}">
+<p class="finding-tags">{% for k in c.cats %}<span>{{ catNames[k] }}</span>{% endfor %}</p>
+<h2>{{ c.question }}</h2>
+<dl>
+<dt>What we checked</dt><dd>{{ c.tested }}</dd>
+<dt>The result</dt><dd>{{ c.result }}</dd>
+</dl>
+<p class="finding-do"><strong>If this is you, do this:</strong> {{ c.do }}</p>
+<p class="finding-link"><a href="{{ '/posts/' + c.slug + '/' }}">Read the full post and its sources</a></p>
+</article>
+{% endfor %}
+</div>
+<p class="fine research-none" hidden>No findings in this group yet.</p>
+
+{% include "signup.njk" %}
+<p class="research-build">Need a tool built for this? We build custom tools, quoted per job.</p>
+
+<script>
+(function(){
+  var btns = document.querySelectorAll('.filter');
+  var cards = document.querySelectorAll('.finding');
+  var none = document.querySelector('.research-none');
+  btns.forEach(function(b){
+    b.addEventListener('click', function(){
+      var cat = b.getAttribute('data-cat'), shown = 0;
+      btns.forEach(function(x){ var on = x === b; x.classList.toggle('is-on', on); x.setAttribute('aria-pressed', on ? 'true' : 'false'); });
+      cards.forEach(function(c){
+        var show = cat === 'all' || c.getAttribute('data-cats').split(' ').indexOf(cat) > -1;
+        c.hidden = !show; if (show) shown++;
+      });
+      none.hidden = shown > 0;
+    });
+  });
+})();
+</script>
