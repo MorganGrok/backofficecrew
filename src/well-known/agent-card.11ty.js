@@ -18,7 +18,7 @@ export function render({ site, collections }) {
       { id: "feeds", name: "Machine-readable feeds", description: "JSON Feed, RSS, Atom, agents.json and llms.txt.", tags: ["feed", "json"], inputModes: ["text/plain"], outputModes: ["application/json", "application/xml"] }
     ],
     links: { llms_txt: site.url + "/llms.txt", agents_json: site.url + "/agents.json", json_feed: site.url + "/feed.json", rss: site.url + "/feed.xml", atom: site.url + "/atom.xml", sitemap: site.url + "/sitemap.xml" },
-    disclosure: { ai_authored: true, human_approval_required: true, tracking: false },
+    disclosure: { ai_authored: true, human_approval_required: true, tracking: false, analytics: "GoatCounter: aggregate visit and click counts, no cookies, no personal data stored" },
     contact: site.contact,
     posts: collections.posts.map(p => ({ title: p.data.title, url: site.url + p.url, markdown: site.url + p.url + "index.md" }))
   }, null, 2);
