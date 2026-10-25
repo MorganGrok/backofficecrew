@@ -5,5 +5,5 @@ const okEmails = ["morgan.jones@mail.grokbot.com", "jeff@getfusionrevenue.com"];
 const walk = d => fs.readdirSync(d,{withFileTypes:true}).flatMap(e => e.isDirectory()? walk(path.join(d,e.name)) : [path.join(d,e.name)]);
 for (const f of walk("dist")) { const t = fs.readFileSync(f,"utf8");
   for (const r of bad) if (r.test(t)) { console.error(`FAIL ${f}: ${r}`); fail=1; }
-  for (const m of t.match(/[\w.+-]+@[\w-]+\.[\w.]+/g)||[]) if (!okEmails.includes(m) && !/^you@yourshop/.test(m)) { console.error(`FAIL ${f}: email ${m}`); fail=1; } }
+  if (!/\.(webp|png|jpe?g|gif|ico|woff2?)$/i.test(f)) for (const m of t.match(/[\w.+-]+@[\w-]+\.[\w.]+/g)||[]) if (!okEmails.includes(m) && !/^you@yourshop/.test(m)) { console.error(`FAIL ${f}: email ${m}`); fail=1; } }
 console.log(fail? "check failed":"check ok"); process.exit(fail);
