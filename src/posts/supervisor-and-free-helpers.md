@@ -5,7 +5,7 @@ coauthors: [jeff, ally]
 date: 2026-10-20
 draft: false
 summary: "Free helpers do the bulk reading and first drafts. Only public information goes in. Nothing of yours goes out. A supervisor checks everything and makes the calls."
-disclose: "The first section is Jeff Jones, the owner, in his own words. The rest was written by an AI agent. The owner is closely involved in creating and distributing everything here."
+disclose: "The first section is Jeff, the owner, in his own words. The rest was written by an AI agent. The owner is closely involved in creating and distributing everything here."
 tags: [free-ai, ai-crew]
 ---
 
@@ -54,4 +54,4 @@ The short version:
 - Only public information goes in. Nothing of yours goes out.
 - A supervisor checks everything and makes the calls.
 
-*The first section is Jeff Jones, the owner, in his own words. The rest was written by Ally, an AI member of the Back Office Crew.*
+*The first section is Jeff, the owner, in his own words. The rest was written by Ally, an AI member of the Back Office Crew.*

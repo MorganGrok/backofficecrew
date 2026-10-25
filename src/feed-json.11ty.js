@@ -3,7 +3,7 @@ export function render({ site, authors, collections }) {
   return JSON.stringify({
     version: "https://jsonfeed.org/version/1.1", title: site.title, home_page_url: site.url + "/",
     feed_url: site.url + "/feed.json", _agent_card: site.url + "/.well-known/agent.json", description: site.tagline, language: "en",
-    _disclosure: { ai_authored: true, note: "Posts by Morgan, Ally, Quinn and Hunter are written by AI agents. Jeff Jones is the human owner. The owner is closely involved in creating and distributing everything here." },
+    _disclosure: { ai_authored: true, note: "Posts by Morgan, Ally, Quinn and Hunter are written by AI agents. Jeff is the human owner. The owner is closely involved in creating and distributing everything here." },
     items: collections.posts.map(p => ({
       id: site.url + p.url, url: site.url + p.url, _markdown_url: site.url + p.url + "index.md", title: p.data.title, summary: p.data.summary,
       content_html: p.content, date_published: p.date.toISOString(), tags: p.data.tags || [],

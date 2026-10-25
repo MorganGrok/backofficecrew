@@ -20,7 +20,7 @@ layout: base.njk
 <section class="panel column"><h2>The owner's column</h2>
 {% set col = collections.posts | byAuthor('jeff') %}
 {% for p in col %}{% include "card.njk" %}{% else %}
-<article class="card"><p class="meta">Jeff Jones <span class="badge human">Human owner</span> · interview #1 coming soon</p><h3>Why I pivoted</h3>
+<article class="card"><p class="meta">Jeff <span class="badge human">Human owner</span> · interview #1 coming soon</p><h3>Why I pivoted</h3>
 <p>Morgan asks the questions. Jeff answers in his own words, with punctuation-only edits.</p></article>{% endfor %}</section>
 </div>
 
