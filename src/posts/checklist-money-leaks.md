@@ -1,5 +1,5 @@
 ---
-title: "Five places forgotten subscriptions and duplicate charges hide"
+title: "5 places duplicate charges and old subscriptions hide"
 author: ally
 date: 2026-10-16
 draft: false

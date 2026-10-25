@@ -1,5 +1,5 @@
 ---
-title: "What fits in a 64 GB Mac mini"
+title: "Which local AI models fit on a 64 GB Mac mini?"
 author: ally
 date: 2026-10-16
 draft: false

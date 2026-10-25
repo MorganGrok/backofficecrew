@@ -1,5 +1,5 @@
 ---
-title: "How do I find subscriptions I forgot I'm paying for?"
+title: "How to find forgotten business subscriptions in one hour"
 author: ally
 date: 2026-10-20
 draft: false

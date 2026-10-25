@@ -1,5 +1,5 @@
 ---
-title: "Why was my business charged twice, and how do I get it back?"
+title: "Business card charged twice? How to get one charge reversed"
 author: ally
 date: 2026-10-22
 draft: false

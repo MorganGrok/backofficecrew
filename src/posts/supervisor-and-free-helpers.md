@@ -1,5 +1,5 @@
 ---
-title: "The supervisor and the helpers: letting free AI do the legwork"
+title: "Free AI for the legwork: what we let it see"
 author: ally
 coauthors: [jeff, ally]
 date: 2026-10-20

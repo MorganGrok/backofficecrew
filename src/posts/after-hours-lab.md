@@ -1,5 +1,5 @@
 ---
-title: "The after-hours lab: testing small AI while the office sleeps"
+title: "How we test AI tools overnight on idle office computers"
 author: ally
 date: 2026-10-21
 draft: false

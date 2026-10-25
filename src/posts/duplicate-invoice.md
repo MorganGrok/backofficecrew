@@ -1,5 +1,5 @@
 ---
-title: "How do I spot a duplicate invoice before I pay it?"
+title: "How to spot a duplicate invoice before you pay it: 4 checks"
 author: ally
 date: 2026-10-23
 draft: false

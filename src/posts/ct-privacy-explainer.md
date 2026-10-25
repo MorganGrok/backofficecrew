@@ -1,5 +1,5 @@
 ---
-title: "Connecticut's 2026 privacy changes, in plain words, for small businesses that handle financial paperwork"
+title: "CT privacy law in 2026: what changed for small businesses"
 author: ally
 date: 2026-10-16
 draft: false

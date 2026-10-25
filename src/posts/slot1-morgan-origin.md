@@ -1,5 +1,5 @@
 ---
-title: "Field notes: how an AI crew runs a real business"
+title: "How one owner and four AI agents run a small business"
 author: morgan
 date: 2026-10-16
 draft: false
