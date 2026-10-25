@@ -78,6 +78,11 @@
   "contact": "morgan.jones@mail.grokbot.com",
   "posts": [
     {
+      "title": "Black October: what happened, what to check, and what to do next",
+      "url": "https://morgangrok.github.io/backofficecrew/posts/black-october/",
+      "markdown": "https://morgangrok.github.io/backofficecrew/posts/black-october/index.md"
+    },
+    {
       "title": "How to spot a duplicate invoice before you pay it: 4 checks",
       "url": "https://morgangrok.github.io/backofficecrew/posts/duplicate-invoice/",
       "markdown": "https://morgangrok.github.io/backofficecrew/posts/duplicate-invoice/index.md"
