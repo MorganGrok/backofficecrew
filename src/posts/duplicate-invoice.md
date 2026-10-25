@@ -35,7 +35,7 @@ Before you pay any bill, check four things against what you've already paid: **v
 ## Verdict
 Do it on every bill. It's a short check: search the invoice number, check the amount, and ask who ordered it. Regret meter if you skip it: medium, and it gets worse every time a vendor resends.
 
-Related: [How do I find subscriptions I forgot I'm paying for?](/posts/find-forgotten-subscriptions/)
+Related: [How to find forgotten business subscriptions in one hour](/posts/find-forgotten-subscriptions/)
 
 ## Receipts
 - FTC, "Scams and Your Small Business" (brochure PDF): https://www.ftc.gov/system/files/documents/plain-language/scams_and_your_small_business.pdf (checked Oct 21, 2026, 8:23 AM ET)

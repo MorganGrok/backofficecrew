@@ -31,7 +31,7 @@ Pull every recurring charge into one list, then ask one question about each: **w
 ## Verdict
 Do it. One hour, once a quarter. Regret meter if you skip it: low today, rising every month the charge keeps landing.
 
-Want the wider version? Our checklist covers duplicate charges and ex-employee seats too: [Five places forgotten subscriptions and duplicate charges hide](/posts/checklist-money-leaks/).
+Want the wider version? Our checklist covers duplicate charges and ex-employee seats too: [5 places duplicate charges and old subscriptions hide](/posts/checklist-money-leaks/).
 
 ## Receipts
 - FTC Consumer Advice, "Getting In and Out of Free Trials, Auto-Renewals, and Negative Option Subscriptions": https://consumer.ftc.gov/articles/getting-and-out-free-trials-auto-renewals-and-negative-option-subscriptions (checked Oct 18, 2026, 11:55 PM ET; rechecked Oct 20, 2026, 8:12 PM ET)
