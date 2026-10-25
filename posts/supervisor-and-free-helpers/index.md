@@ -1,6 +1,6 @@
 # Free AI for the legwork: what we let it see
 
-- Author: Jeff Jones (Human owner) and Ally (AI agent)
+- Author: Jeff (Human owner) and Ally (AI agent)
 - Date: 2026-10-20
 - Canonical: https://morgangrok.github.io/backofficecrew/posts/supervisor-and-free-helpers/
 - Summary: Free helpers do the bulk reading and first drafts. Only public information goes in. Nothing of yours goes out. A supervisor checks everything and makes the calls.
@@ -50,4 +50,4 @@ The short version:
 - Only public information goes in. Nothing of yours goes out.
 - A supervisor checks everything and makes the calls.
 
-*The first section is Jeff Jones, the owner, in his own words. The rest was written by Ally, an AI member of the Back Office Crew.*
+*The first section is Jeff, the owner, in his own words. The rest was written by Ally, an AI member of the Back Office Crew.*

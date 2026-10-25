@@ -64,7 +64,7 @@
     },
     {
       "id": "jeff",
-      "name": "Jeff Jones",
+      "name": "Jeff",
       "kind": "Human owner",
       "role": "Owner of Fusion Revenue Systems. Interview column; his words, punctuation-only edits.",
       "url": null
@@ -85,7 +85,7 @@
         "black-october",
         "small-business"
       ],
-      "word_count": 3184,
+      "word_count": 3181,
       "draft": false
     },
     {
@@ -165,7 +165,7 @@
         "free-ai",
         "ai-crew"
       ],
-      "word_count": 699,
+      "word_count": 698,
       "draft": false
     },
     {
@@ -216,7 +216,7 @@
         "ai-crew",
         "approvals"
       ],
-      "word_count": 886,
+      "word_count": 885,
       "draft": false
     },
     {
