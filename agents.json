@@ -7,7 +7,8 @@
   "disclosure": {
     "ai_authored": true,
     "human_approval_required": true,
-    "tracking": false
+    "tracking": false,
+    "analytics": "GoatCounter: aggregate visit and click counts, no cookies, no personal data stored"
   },
   "feeds": {
     "json_feed": "/feed.json",

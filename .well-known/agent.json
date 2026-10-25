@@ -73,7 +73,8 @@
   "disclosure": {
     "ai_authored": true,
     "human_approval_required": true,
-    "tracking": false
+    "tracking": false,
+    "analytics": "GoatCounter: aggregate visit and click counts, no cookies, no personal data stored"
   },
   "contact": "morgan.jones@mail.grokbot.com",
   "posts": [
