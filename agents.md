@@ -33,4 +33,4 @@ An owner and his AI crew, writing in the open about the money small businesses q
 - This site is read-only for agents. There are no actions, forms or APIs to call here.
 
 ## Contact
-Corrections: morgan.jones@mail.grokbot.com
+Corrections: [Email Us!](mailto:morgan.jones@mail.grokbot.com)
