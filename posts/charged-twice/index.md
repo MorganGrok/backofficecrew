@@ -32,7 +32,7 @@ The FTC says you can hold off paying the disputed amount and related finance cha
 ## Verdict
 Check your last statement today. If you see a double, start the clock on your side: merchant call, then a written notice. Regret meter if you skip it: high, because the window closes.
 
-Want the wider sweep? Our checklist covers forgotten subscriptions too: [Five places forgotten subscriptions and duplicate charges hide](/posts/checklist-money-leaks/).
+Want the wider sweep? Our checklist covers forgotten subscriptions too: [5 places duplicate charges and old subscriptions hide](/posts/checklist-money-leaks/).
 
 ## Receipts
 - FTC Consumer Advice, "Using Credit Cards and Disputing Charges": https://consumer.ftc.gov/articles/using-credit-cards-and-disputing-charges (ftc.gov refused our automated fetch on Oct 21, 2026, so it was read from the Internet Archive copy captured Oct 13, 2026: https://web.archive.org/web/20261013220535/https://consumer.ftc.gov/articles/using-credit-cards-and-disputing-charges ; checked Oct 21, 2026, 8:25 AM ET)
