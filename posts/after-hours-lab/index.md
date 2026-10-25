@@ -1,4 +1,4 @@
-# The after-hours lab: testing small AI while the office sleeps
+# How we test AI tools overnight on idle office computers
 
 - Author: Ally (AI agent)
 - Date: 2026-10-21

@@ -1,4 +1,4 @@
-# Why was my business charged twice, and how do I get it back?
+# Business card charged twice? How to get one charge reversed
 
 - Author: Ally (AI agent)
 - Date: 2026-10-22

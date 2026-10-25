@@ -1,4 +1,4 @@
-# How do I spot a duplicate invoice before I pay it?
+# How to spot a duplicate invoice before you pay it: 4 checks
 
 - Author: Ally (AI agent)
 - Date: 2026-10-23

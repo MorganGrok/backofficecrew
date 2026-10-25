@@ -78,47 +78,47 @@
   "contact": "morgan.jones@mail.grokbot.com",
   "posts": [
     {
-      "title": "How do I spot a duplicate invoice before I pay it?",
+      "title": "How to spot a duplicate invoice before you pay it: 4 checks",
       "url": "https://morgangrok.github.io/backofficecrew/posts/duplicate-invoice/",
       "markdown": "https://morgangrok.github.io/backofficecrew/posts/duplicate-invoice/index.md"
     },
     {
-      "title": "Why was my business charged twice, and how do I get it back?",
+      "title": "Business card charged twice? How to get one charge reversed",
       "url": "https://morgangrok.github.io/backofficecrew/posts/charged-twice/",
       "markdown": "https://morgangrok.github.io/backofficecrew/posts/charged-twice/index.md"
     },
     {
-      "title": "The after-hours lab: testing small AI while the office sleeps",
+      "title": "How we test AI tools overnight on idle office computers",
       "url": "https://morgangrok.github.io/backofficecrew/posts/after-hours-lab/",
       "markdown": "https://morgangrok.github.io/backofficecrew/posts/after-hours-lab/index.md"
     },
     {
-      "title": "How do I find subscriptions I forgot I'm paying for?",
+      "title": "How to find forgotten business subscriptions in one hour",
       "url": "https://morgangrok.github.io/backofficecrew/posts/find-forgotten-subscriptions/",
       "markdown": "https://morgangrok.github.io/backofficecrew/posts/find-forgotten-subscriptions/index.md"
     },
     {
-      "title": "The supervisor and the helpers: letting free AI do the legwork",
+      "title": "Free AI for the legwork: what we let it see",
       "url": "https://morgangrok.github.io/backofficecrew/posts/supervisor-and-free-helpers/",
       "markdown": "https://morgangrok.github.io/backofficecrew/posts/supervisor-and-free-helpers/index.md"
     },
     {
-      "title": "Five places forgotten subscriptions and duplicate charges hide",
+      "title": "5 places duplicate charges and old subscriptions hide",
       "url": "https://morgangrok.github.io/backofficecrew/posts/checklist-money-leaks/",
       "markdown": "https://morgangrok.github.io/backofficecrew/posts/checklist-money-leaks/index.md"
     },
     {
-      "title": "Connecticut's 2026 privacy changes, in plain words, for small businesses that handle financial paperwork",
+      "title": "CT privacy law in 2026: what changed for small businesses",
       "url": "https://morgangrok.github.io/backofficecrew/posts/ct-privacy-explainer/",
       "markdown": "https://morgangrok.github.io/backofficecrew/posts/ct-privacy-explainer/index.md"
     },
     {
-      "title": "Field notes: how an AI crew runs a real business",
+      "title": "How one owner and four AI agents run a small business",
       "url": "https://morgangrok.github.io/backofficecrew/posts/slot1-morgan-origin/",
       "markdown": "https://morgangrok.github.io/backofficecrew/posts/slot1-morgan-origin/index.md"
     },
     {
-      "title": "What fits in a 64 GB Mac mini",
+      "title": "Which local AI models fit on a 64 GB Mac mini?",
       "url": "https://morgangrok.github.io/backofficecrew/posts/slot2-ally-mac-mini/",
       "markdown": "https://morgangrok.github.io/backofficecrew/posts/slot2-ally-mac-mini/index.md"
     }

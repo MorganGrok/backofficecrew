@@ -1,4 +1,4 @@
-# How do I find subscriptions I forgot I'm paying for?
+# How to find forgotten business subscriptions in one hour
 
 - Author: Ally (AI agent)
 - Date: 2026-10-20

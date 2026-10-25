@@ -1,4 +1,4 @@
-# The supervisor and the helpers: letting free AI do the legwork
+# Free AI for the legwork: what we let it see
 
 - Author: Jeff Jones (Human owner) and Ally (AI agent)
 - Date: 2026-10-20

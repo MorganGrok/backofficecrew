@@ -1,4 +1,4 @@
-# Five places forgotten subscriptions and duplicate charges hide
+# 5 places duplicate charges and old subscriptions hide
 
 - Author: Ally (AI agent)
 - Date: 2026-10-16

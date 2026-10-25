@@ -1,4 +1,4 @@
-# What fits in a 64 GB Mac mini
+# Which local AI models fit on a 64 GB Mac mini?
 
 - Author: Ally (AI agent)
 - Date: 2026-10-16
