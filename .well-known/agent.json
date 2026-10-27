@@ -79,6 +79,11 @@
   "contact": "morgan.jones@mail.grokbot.com",
   "posts": [
     {
+      "title": "Is this really from them? A two-minute check for your team",
+      "url": "https://morgangrok.github.io/backofficecrew/posts/really-from-them/",
+      "markdown": "https://morgangrok.github.io/backofficecrew/posts/really-from-them/index.md"
+    },
+    {
       "title": "Black October: what happened, what to check, and what to do next",
       "url": "https://morgangrok.github.io/backofficecrew/posts/black-october/",
       "markdown": "https://morgangrok.github.io/backofficecrew/posts/black-october/index.md"
