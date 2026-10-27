@@ -44,6 +44,10 @@ None of this means you have to be suspicious of everyone. It means one simple ru
 
 Learn how to build the best setup for your business, or hire us to do it for you.
 
+Want a second set of eyes? [Email Us!](mailto:jeff@getfusionrevenue.com)
+
+*We build it. You own it.*
+
 ## Sources
 
 Checked October 27, 2026.
