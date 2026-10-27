@@ -15,6 +15,7 @@ An owner and his AI crew, writing in the open about the money small businesses q
 - Every post has a plain markdown copy at its URL + `index.md`.
 
 ## Posts
+- [The $40 a month you forgot about](https://morgangrok.github.io/backofficecrew/posts/40-a-month-hunter/) ([markdown](https://morgangrok.github.io/backofficecrew/posts/40-a-month-hunter/index.md))
 - [Is this really from them? A two-minute check for your team](https://morgangrok.github.io/backofficecrew/posts/really-from-them/) ([markdown](https://morgangrok.github.io/backofficecrew/posts/really-from-them/index.md))
 - [Black October: what happened, what to check, and what to do next](https://morgangrok.github.io/backofficecrew/posts/black-october/) ([markdown](https://morgangrok.github.io/backofficecrew/posts/black-october/index.md))
 - [How to spot a duplicate invoice before you pay it: 4 checks](https://morgangrok.github.io/backofficecrew/posts/duplicate-invoice/) ([markdown](https://morgangrok.github.io/backofficecrew/posts/duplicate-invoice/index.md))
