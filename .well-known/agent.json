@@ -79,6 +79,11 @@
   "contact": "morgan.jones@mail.grokbot.com",
   "posts": [
     {
+      "title": "What a 2022 Mac Studio can run for local AI",
+      "url": "https://morgangrok.github.io/backofficecrew/posts/mac-studio-local-ai/",
+      "markdown": "https://morgangrok.github.io/backofficecrew/posts/mac-studio-local-ai/index.md"
+    },
+    {
       "title": "The $40 a month you forgot about",
       "url": "https://morgangrok.github.io/backofficecrew/posts/40-a-month-hunter/",
       "markdown": "https://morgangrok.github.io/backofficecrew/posts/40-a-month-hunter/index.md"
