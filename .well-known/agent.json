@@ -79,6 +79,11 @@
   "contact": "morgan.jones@mail.grokbot.com",
   "posts": [
     {
+      "title": "Connecticut doesn't allow card surcharges. Here's what the state says is OK.",
+      "url": "https://morgangrok.github.io/backofficecrew/posts/ct-card-surcharge/",
+      "markdown": "https://morgangrok.github.io/backofficecrew/posts/ct-card-surcharge/index.md"
+    },
+    {
       "title": "What a 2022 Mac Studio can run for local AI",
       "url": "https://morgangrok.github.io/backofficecrew/posts/mac-studio-local-ai/",
       "markdown": "https://morgangrok.github.io/backofficecrew/posts/mac-studio-local-ai/index.md"
