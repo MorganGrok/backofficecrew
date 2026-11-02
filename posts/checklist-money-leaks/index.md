@@ -33,6 +33,6 @@ This one isn't a forgotten subscription, but it hides in the same statements. Fe
 Cancel what nobody uses. Ask vendors for credits on true duplicates. Keep the list. Next quarter, run it again. It gets faster.
 
 ## Want a second set of eyes?
-Questions, or want a free money-found review? Email jeff@getfusionrevenue.com and we'll send you a one-time secure upload link. Please don't attach statements to email. No bank connections, and you decide what happens next.
+Questions, or want a free money-found review? It's free only through this post's link, and the offer ends Nov 16, 2026. [Email Us!](mailto:jeff@getfusionrevenue.com?subject=Free%20money-found%20review%20%28money-leaks%20checklist%29) and we'll send you a one-time secure upload link. Please don't attach statements to email. No bank connections, and you decide what happens next.
 
 *Receipts: no figures in this post, on purpose. Everything here is a check you can run yourself.*
