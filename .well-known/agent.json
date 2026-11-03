@@ -79,6 +79,11 @@
   "contact": "morgan.jones@mail.grokbot.com",
   "posts": [
     {
+      "title": "Black October update: four more things to ask your web or IT person",
+      "url": "https://morgangrok.github.io/backofficecrew/posts/black-october-update/",
+      "markdown": "https://morgangrok.github.io/backofficecrew/posts/black-october-update/index.md"
+    },
+    {
       "title": "A real Google security email can still be a scam: the 60-second check",
       "url": "https://morgangrok.github.io/backofficecrew/posts/google-alert-scam/",
       "markdown": "https://morgangrok.github.io/backofficecrew/posts/google-alert-scam/index.md"
