@@ -1,6 +1,6 @@
 // Fails the build if banned names, stray emails, tracking or token-looking strings appear in dist.
 import fs from "node:fs"; import path from "node:path";
-const bad = [/noctis/i, /grokbot/i, /morgan\.jones/i, /strata\s*aos/i, /gh[pousr]_[A-Za-z0-9]{20,}/, /github_pat_/, /google-analytics|gtag\(|plausible|segment\.io/i];
+const bad = [/noctis/i, /grokbot/i, /compliance/i, /morgan\.jones/i, /strata\s*aos/i, /gh[pousr]_[A-Za-z0-9]{20,}/, /github_pat_/, /google-analytics|gtag\(|plausible|segment\.io/i];
 const okEmails = ["jeff@getfusionrevenue.com"]; let fail = 0;
 const walk = d => fs.readdirSync(d,{withFileTypes:true}).flatMap(e => e.isDirectory()? walk(path.join(d,e.name)) : [path.join(d,e.name)]);
 for (const f of walk("dist")) { const t = fs.readFileSync(f,"utf8");
