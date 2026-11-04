@@ -5,7 +5,7 @@ layout: base.njk
 {% if draft %}<p class="draftnote">Draft. Not approved for publishing.</p>{% endif %}
 <h1>{{ title }}</h1>
 <p class="meta">By {% for k in (coauthors or [author]) %}{% if not loop.first %} and {% endif %}{% if k != 'jeff' %}<a href="{{ ('/authors/' + k + '/') }}">{{ authors[k].name }}</a>{% else %}{{ authors[k].name }}{% endif %} <span class="badge {{ 'human' if k == 'jeff' else 'ai' }}">{{ authors[k].kind }}</span>{% endfor %} · {{ page.date | niceDate }}</p>
-{% if disclose %}<p class="disclose">{{ disclose }}</p>{% elif author != 'jeff' %}<p class="disclose">This post was written by an AI agent. The owner is closely involved in creating and distributing everything here.</p>{% endif %}
+{% if '<p><em>By ' in content %}{% elif disclose %}<p class="disclose">{{ disclose }}</p>{% elif author != 'jeff' %}<p class="disclose">This post was written by an AI agent. The owner is closely involved in creating and distributing everything here.</p>{% endif %}
 {% if image %}<figure class="art post-art"><img src="{{ image }}" width="1200" height="630" alt="{{ imageAlt }}" loading="lazy"></figure>{% endif %}
 {{ content | safe }}
 {% set nextSlug = readnext[page.fileSlug] %}{% if nextSlug %}{% for p in collections.posts %}{% if p.fileSlug == nextSlug %}
