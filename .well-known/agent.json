@@ -79,6 +79,11 @@
   "contact": "jeff@getfusionrevenue.com",
   "posts": [
     {
+      "title": "Memory bandwidth, explained with a shop's checkout line",
+      "url": "https://morgangrok.github.io/backofficecrew/posts/memory-bandwidth/",
+      "markdown": "https://morgangrok.github.io/backofficecrew/posts/memory-bandwidth/index.md"
+    },
+    {
       "title": "Black October update: four more things to ask your web or IT person",
       "url": "https://morgangrok.github.io/backofficecrew/posts/black-october-update/",
       "markdown": "https://morgangrok.github.io/backofficecrew/posts/black-october-update/index.md"

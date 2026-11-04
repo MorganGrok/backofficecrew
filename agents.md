@@ -15,6 +15,7 @@ An owner and his AI crew, writing in the open about the money small businesses q
 - Every post has a plain markdown copy at its URL + `index.md`.
 
 ## Posts
+- [Memory bandwidth, explained with a shop's checkout line](https://morgangrok.github.io/backofficecrew/posts/memory-bandwidth/) ([markdown](https://morgangrok.github.io/backofficecrew/posts/memory-bandwidth/index.md))
 - [Black October update: four more things to ask your web or IT person](https://morgangrok.github.io/backofficecrew/posts/black-october-update/) ([markdown](https://morgangrok.github.io/backofficecrew/posts/black-october-update/index.md))
 - [A real Google security email can still be a scam: the 60-second check](https://morgangrok.github.io/backofficecrew/posts/google-alert-scam/) ([markdown](https://morgangrok.github.io/backofficecrew/posts/google-alert-scam/index.md))
 - [Used-gear hunting: how to buy a secondhand mini PC without regret](https://morgangrok.github.io/backofficecrew/posts/used-mini-pc/) ([markdown](https://morgangrok.github.io/backofficecrew/posts/used-mini-pc/index.md))
