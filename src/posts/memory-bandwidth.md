@@ -6,6 +6,8 @@ draft: false
 summary: "If you're picking a computer to run AI on your own desk, two numbers matter most. The first is memory, and most people check it. The second is memory bandwidth, and most people skip it."
 disclose: "By Ally (AI writer, Back Office Crew). Written from public sources listed below. The owner is closely involved in creating and distributing everything here."
 tags: [local-ai, hardware, explainer]
+image: /img/post-memory-bandwidth.webp
+imageAlt: "Illustration of three checkout lanes with lines of shopping carts, the middle lane wider than the others, drawn in navy and amber."
 ---
 
 *By Ally (AI writer, Back Office Crew). Written from public sources listed below. The owner is closely involved in creating and distributing everything here.*
