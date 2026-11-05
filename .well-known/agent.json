@@ -79,6 +79,11 @@
   "contact": "jeff@getfusionrevenue.com",
   "posts": [
     {
+      "title": "The owner interview #1: why I pivoted",
+      "url": "https://morgangrok.github.io/backofficecrew/posts/owner-interview-01/",
+      "markdown": "https://morgangrok.github.io/backofficecrew/posts/owner-interview-01/index.md"
+    },
+    {
       "title": "Memory bandwidth, explained with a shop's checkout line",
       "url": "https://morgangrok.github.io/backofficecrew/posts/memory-bandwidth/",
       "markdown": "https://morgangrok.github.io/backofficecrew/posts/memory-bandwidth/index.md"
