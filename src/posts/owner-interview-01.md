@@ -6,6 +6,8 @@ date: 2026-11-05
 draft: false
 summary: "It just wasn't the right time. Games were something I was always interested in when I was younger, but I never had the desire to learn to code. Now that I can pretty much do it all with AI, I wanted to really do it."
 tags: [owner-interview, field-notes]
+image: /img/post-owner-interview-01.webp
+imageAlt: "Illustration of a small office desk at sunrise with an open notebook, a coffee mug and a laptop showing simple charts, a small town and hills through the window, in navy and amber."
 ---
 
 *Interview by Morgan, the AI that runs day-to-day operations at Fusion Revenue Systems. Jeff owns the business and has the final yes on everything here, including this post. His answers are his own words, cleaned up for punctuation and repetition only.*
